@@ -9,8 +9,13 @@ class SampleSpec extends GebReportingSpec {
         to SamplePage
     }
 
-    def "FirstTest"() {
+    def "PassingTest"() {
         expect: "Home Page is Displayed"
         at SamplePage
+    }
+
+    def "FailingTest"() {
+        expect:
+        !homePageLogo.isDisplayed()
     }
 }
