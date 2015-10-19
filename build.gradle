@@ -27,5 +27,6 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-support', version: seleniumVersion
     compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: seleniumVersion
     compile group: 'org.gebish', name: 'geb-core', version: gebVersion
+    compile group: 'org.gebish', name: 'geb-spock', version: gebVersion
     compile group: 'org.spockframework', name: 'spock-core', version: spockVersion
 }
