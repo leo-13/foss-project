@@ -5,7 +5,6 @@ import geb.Page
  */
 class SamplePage extends Page {
     static at = { homePageLogo.isDisplayed() }
-    static url = "www.google.com"
     static content = {
         homePageLogo { $("img#hplogo") }
     }
