@@ -7,7 +7,7 @@ import org.junit.runners.model.Statement
  */
 public class MethodExecutionRule implements MethodRule {
 
-    public static def failedTests = []
+    public static failedTests = []
 
     public Statement apply(final Statement statement, final FrameworkMethod frameworkMethod, final Object o) {
         return new Statement() {
