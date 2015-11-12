@@ -6,6 +6,7 @@ import geb.Page
 class SamplePage extends Page {
     static at = { homePageLogo.isDisplayed() }
     static content = {
-        homePageLogo { $("img#hplogo") }
+//        homePageLogo { $("img#hplogo") }
+        homePageLogo { $("img") }
     }
 }
