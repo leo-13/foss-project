@@ -6,15 +6,15 @@ import geb.spock.GebReportingSpec
 class SampleSpec extends GebReportingSpec {
 
     def setup() {
-        to SamplePage
+        to GoogleHomePage
     }
 
     def "PassingTest"() {
         expect: "Home Page is Displayed"
-        at SamplePage
+        at GoogleHomePage
     }
 
-    def "FailingTest"() {
+    def "FailingTest_expect_block"() {
         expect:
         !homePageLogo.isDisplayed()
     }

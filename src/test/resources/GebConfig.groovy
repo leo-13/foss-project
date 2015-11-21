@@ -10,7 +10,8 @@ cacheDriver = true
 autoClearCookies = true
 atCheckWaiting = true
 
-reportOnTestFailureOnly = true
+//reportOnTestFailureOnly = true
+reportOnTestFailureOnly = false
 
 driver = {
     def chromeDriver = new File('src/test/resources/chromedriver.exe')
