@@ -14,7 +14,8 @@ repositories {
 
 ext {
     groovyVersion = '2.4.3'
-    gebVersion = '1.0-SNAPSHOT'
+//    gebVersion = '1.0-SNAPSHOT'
+    gebVersion = '0.12.2'
     spockVersion = '1.0-groovy-2.4'
     seleniumVersion = '2.48.2'
 }

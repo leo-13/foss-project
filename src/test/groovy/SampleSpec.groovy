@@ -1,7 +1,9 @@
+import geb.spock.GebReportingSpec
+
 /**
  * Created by Leonid on 10/19/2015.
  */
-class SampleSpec extends BaseReportingSpec {
+class SampleSpec extends GebReportingSpec {
 
     def setup() {
         to SamplePage
