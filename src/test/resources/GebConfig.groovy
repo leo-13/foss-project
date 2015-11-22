@@ -2,7 +2,7 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 
 waiting {
-    timeout = 15
+    timeout = 5
     retryInterval = 0.5
 }
 
@@ -10,8 +10,8 @@ cacheDriver = true
 autoClearCookies = true
 atCheckWaiting = true
 
-//reportOnTestFailureOnly = true
-reportOnTestFailureOnly = false
+reportOnTestFailureOnly = true
+//reportOnTestFailureOnly = false
 
 driver = {
     def chromeDriver = new File('src/test/resources/chromedriver.exe')
